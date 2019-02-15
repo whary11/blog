@@ -17,12 +17,6 @@
   <!-- Custom styles for this template -->
   <link href="css/blog-home.css" rel="stylesheet">
 
-  <style>
-    .navbar-toggler-icon{
-      color:red !important;
-    }
-  
-  </style>
 </head>
 
 <body>
@@ -45,12 +39,16 @@
           <li class="nav-item">
             <a class="nav-link text-dark" href="#">Nosotros <i class="fas fa-users"></i></a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link text-dark" href="entrada.html">Articulo <i class="fas fa-blog"></i></a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- Page Content -->
-  <div class="container-fluid">
+  <div class="container">
+      <img class="card-img-top" width="750" height="300" src="https://serviplomeria.com.co/image/plomeros-barranquilla.jpg" alt="Card image cap">
     <!-- <div class="row">
       <div class="col-md-12">
           <img class="card-img-top" width="750" height="300" src="https://serviplomeria.com.co/image/plomeros-barranquilla.jpg">
@@ -58,7 +56,7 @@
     </div> -->
     <div class="row pt-3">
       <!-- Blog Entries Column -->
-      <div class="col-md-10">
+      <div class="col-md-8">
 
         <div class="card mb-3">
           <div class="card-header">
@@ -149,12 +147,12 @@
           
       </div>
       <!-- Sidebar Widgets Column -->
-      <div class="col-md-2">
+      <div class="col-md-4">
         <!-- Search Widget -->
         <div class="card mb-4">
             <h6 class="card-header">Necesitas un servicio ?</h6>
             <div class="card-body">
-              <a href="">Pedir ya</a>
+              <a href="" class="btn button-custom">Pedir ya</a>
             </div>
         </div>
         <div class="card">
@@ -208,7 +206,7 @@
         <div class="card mb-4">
             <h6 class="card-header">Pedir servicio ya</h6>
             <div class="card-body">
-              <a href="">Click aquí</a>
+              <a href="" class="btn button-custom">Click aquí</a>
             </div>
         </div>
         <!-- Side Widget -->
@@ -250,7 +248,7 @@
                           </p>
                     </div>
                   <div class="card-footer">
-                    <a class="btn btn-defoult color-button" href="">Leer más..</a>
+                    <a class="btn btn-defoult button-custom" href="">Leer más <i class="fas fa-caret-right"></i></a>
                   </div>
                 </div>
 
@@ -266,7 +264,7 @@
                       </p>
                 </div>
               <div class="card-footer">
-                <a class="btn btn-defoult color-button" href="">Leer más..</a>
+                <a class="btn button-custom" href="">Leer más  <i class="fas fa-caret-right"></i></a>
               </div>
             </div>
           </div>
@@ -285,6 +283,63 @@
 
     </div>
   </div>
+
+
+
+
+<!-- comentarios -->
+
+
+
+<div class="container"> 
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Nuevo comentario</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Agregar</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+        </li> -->
+      </ul>
+      <div class="tab-content m-3" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="row">
+              <div class="media mt-3">
+                <img src="img/logo.png" width="100px" class="mr-3 ml-3" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0">Agencia Web Bogotá</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </div>
+              </div>
+              <div class="media mt-3">
+                  <img src="img/logo.png" width="100px" class="mr-3 ml-3" alt="...">
+                  <div class="media-body">
+                    <h5 class="mt-0">Media heading</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <form>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Cometario</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn button-custom">Comentar</button>
+              </form>
+        </div>
+        <!-- <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          3
+        </div> -->
+      </div>
+</div>
+
+
+
   <!-- /.container -->
   <!-- Footer -->
   </div>
