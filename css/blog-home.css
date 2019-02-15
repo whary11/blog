@@ -6,14 +6,15 @@
 body {
   padding-top: 56px;
   font-family: 'Yantramanav', sans-serif !important;
+  color: black !important;
 
 }
 
 
 .color-defoult{
-  background-color: #7FCA9C;
+  background-color: #80ffcc;
 }
 
 .color-button{
-  background-color: #7FCA9C;
+  background-color: #80ffcc;
 }
