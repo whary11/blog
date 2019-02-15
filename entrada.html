@@ -220,7 +220,7 @@
         </div>
 
         <div class="card my-4">
-            <h5 class="card-header">Destacados</h5>
+            <h5 class="card-header">Noticias importantes</h5>
             <div class="card-body">
               Puedes poner lo que quieras dentro de estos widgets laterales. ¡Son fáciles de usar y cuentan con los
               nuevos contenedores de tarjetas Bootstrap 4! 
@@ -229,26 +229,65 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
 
-        <!-- <div class="col-md-10 ">
-          <div class="card">
-              <h5 class="card-header">Destacados</h5>
-              <div class="card-body">
-                Puedes poner lo que quieras dentro de estos widgets laterales. ¡Son fáciles de usar y cuentan con los
-                nuevos contenedores de tarjetas Bootstrap 4! 
+        <!-- Destacados -->
+        <div>
+          <h3 class="text-center">Articulos destacados</h3>
+
+        </div>
+
+        <div id="carouselExampleInterval" class="carousel slide row" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active col-md-4 offset-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                    <h4 class="card-title">Plomeros en Bogotá: reparación tuberías, inodoros, goteras y más.</h4>
+    
+                        <p class="card-text">os plomeros realizan el diagnóstico (nos dicen qué pasa), la instalación y la reparación de los sistemas de plomería utilizados para la distribución y eliminación de gas, aire y agua, incluidos los sistemas de calefacción, ventilación y aire acondicionado.
+                            Es decir, son los creadores y doctores de todas aquellas tuberías que se encuentran en tu hogar.
+                          </p>
+                    </div>
+                  <div class="card-footer">
+                    <a class="btn btn-primary" href="">Leer más..</a>
+                  </div>
+                </div>
+
+            
+          </div>
+          <div class="carousel-item col-md-4 offset-md-4">
+              <div class="card mb-3">
+                <div class="card-body">
+                <h4 class="card-title">Plomeros en Bogotá: reparación tuberías, inodoros, goteras y más.</h4>
+
+                    <p class="card-text">os plomeros realizan el diagnóstico (nos dicen qué pasa), la instalación y la reparación de los sistemas de plomería utilizados para la distribución y eliminación de gas, aire y agua, incluidos los sistemas de calefacción, ventilación y aire acondicionado.
+                        Es decir, son los creadores y doctores de todas aquellas tuberías que se encuentran en tu hogar.
+                      </p>
+                </div>
+              <div class="card-footer">
+                <a class="btn btn-primary" href="">Leer más..</a>
               </div>
             </div>
-
-        </div> -->
-
+          </div>
+            
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
      
 
     </div>
   </div>
   <!-- /.container -->
   <!-- Footer -->
+  </div>
   <footer class="py-3 color-defoult">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; <span class="text-uppercase">los plomeros 2019</span></p>
@@ -259,7 +298,13 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
-  
+  <script>
+    $(document).ready(()=>{
+      $('.carousel').carousel({
+        interval: 2000
+      })
+    })
+  </script>
 </body>
 
 </html>
