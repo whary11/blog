@@ -10,11 +10,10 @@
   <title>Blog - sección para las entradas</title>
   <!-- Fuentes -->
   <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
-  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,700" rel="stylesheet"> 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- Custom styles for this template -->
   <link href="css/blog-home.css" rel="stylesheet">
 
@@ -22,7 +21,7 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top color-defoult">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top color-default">
     <div class="container">
       <a class="navbar-brand text-uppercase text-dark" href="#">Los plomeros</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -50,59 +49,72 @@
   </nav>
   <!-- Page Content -->
   <div class="container">
-    <img class="card-img-top" width="750" height="300" src="https://serviplomeria.com.co/image/plomeros-barranquilla.jpg"
-      alt="Card image cap">
-    <!-- <div class="row">
-      <div class="col-md-12">
-          <img class="card-img-top" width="750" height="300" src="https://serviplomeria.com.co/image/plomeros-barranquilla.jpg">
-      </div>
-    </div> -->
+    <img class="img-fluid" width="1200" height="628" src="img/plomeros-barranquilla.jpg"
+      alt="Post Image">
+    
     <div class="row pt-3">
       <!-- Blog Entries Column -->
       <div class="col-md-8">
 
-        <div class="card mb-3">
-          <div class="card-header card-color">
-            <h2 class="card-title">Plomeros en Bogotá: reparación tuberías, inodoros, goteras y más.</h2>
+        <div class="post mt-3">
+          <div id="share-buttons">              
+              <!-- Facebook -->
+              <a href="#" target="_blank"><img src="img/facebook.png" alt="Facebook" /></a>
+              <!-- Twitter -->
+              <a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter" /></a>            
+              <!-- LinkedIn -->
+              <a href="#" target="_blank"><img src="img/linkedin.png" alt="LinkedIn" /></a>
+              <!-- Pinterest -->
+              <a href="#" target="_blank"><img src="img/pinterest.png" alt="Pinterest" /></a>
+              <!-- Tumblr-->
+              <a href="#" target="_blank"><img src="img/tumblr.png" alt="Tumblr" /></a>
+              <!-- Email -->
+              <a href="#"><img src="img/email.png" alt="Email" /></a>
+              <!-- Print -->
+              <a href="javascript:;" onclick="window.print()"><img src="img/print.png" alt="Print" /></a>            
           </div>
 
-          <div class="card-body">
-            <p class="card-text">Esta es una guía corta sobre los servicios que un plomero, en Bogotá y en cualquier
-              parte del mundo, debería ofrecerte.
-              Como cliente, es necesario que sepas en qué ocasiones debes solicitar ayuda profesional, así como esas
+          <div>
+            <h1 class="post-title mt-3 mb-4">Plomeros en Bogotá: Reparación Tuberías, Inodoros, Goteras y Más...</h1>
+          </div>
+
+          <div class="post-content">
+            <h3>Esta es una guía corta sobre los servicios que un plomero, en Bogotá y en cualquier
+              parte del mundo, debería ofrecerte.</h3>
+            <p>Como cliente, es necesario que sepas en qué ocasiones debes <span class="highlight2">solicitar ayuda profesional</span>, así como esas
               veces donde puedes solucionarlo tú mismo y ahorrarte unos cuantos pesos.
             </p>
 
             <section class="row">
               <div class="col-md-6">
-                <img class="card-img" width="750" height="300" src="img/plomero en lavaplatos o fregadero.JPG">
+                <img class="img-fluid" width="750" height="300" src="img/plomero en lavaplatos o fregadero.JPG">
               </div>
-              <div class="col-md-6">
-                <p class="card-text">
-                  Mira qué hace un plomero realmente y cuales son sus principales funciones, luego, aprende cómo puedes
-                  contactar uno y qué debes tomar en cuenta a la hora de reparar tuberías en casa.
-                </p>
-                <p class="card-text">Los plomeros realizan el diagnóstico (nos dicen qué pasa), la instalación y la
-                  reparación de los sistemas de plomería utilizados para la distribución y eliminación de gas, aire y
-                  agua, incluidos los sistemas de calefacción, ventilación y aire acondicionado.
-                  Es decir, son los creadores y doctores de todas aquellas tuberías que se encuentran en tu hogar.
-                </p>
+              <div class="col-md-6 mt-5">
+                <p><span class="highlight">Mira qué hace un plomero realmente y cuales son sus principales funciones.</span> Luego, aprende cómo puedes
+                  contactar uno y qué debes tomar en cuenta a la hora de reparar tuberías en casa.</p>
               </div>
             </section>
-
+            
             <section class="mt-3">
+            <p>Los plomeros realizan el diagnóstico (nos dicen qué pasa), la instalación y la
+                reparación de los sistemas de plomería utilizados para la distribución y eliminación de gas, aire y
+                agua, incluidos los sistemas de calefacción, ventilación y aire acondicionado.</p>
 
+            <p><span class="highlight">Es decir, son los creadores y doctores de todas aquellas tuberías que se encuentran en tu hogar.</span></p>
+          </section>  
+
+            <section class="mt-5">
               <h3>Qué hace un plomero: la magia detrás de la cerámica</h3>
 
-              <p class="card-text">Los plomeros realizan el diagnóstico (nos dicen qué pasa), la instalación y la
+              <p>>Los plomeros realizan el diagnóstico (nos dicen qué pasa), la instalación y la
                 reparación de los sistemas de plomería utilizados para la distribución y eliminación de gas, aire y
                 agua, incluidos los sistemas de calefacción, ventilación y aire acondicionado.
                 Es decir, son los creadores y doctores de todas aquellas tuberías que se encuentran en tu hogar.
               </p>
 
-              <p class="card-text">Los plomeros pueden trabajar para una empresa o un contratista. Suelen acompañar a
-                los ingenieros o a las empresas de servicios. También pueden trabajar por su cuenta, en cuyo caso, es
-                necesario que te asegures de su buena reputación ¿no dejas tu hogar en manos de cualquiera, o sí?
+              <p><span class="highlight2">Los plomeros pueden trabajar para una empresa o un contratista.</span> Suelen acompañar a
+                los ingenieros o a las empresas de servicios. También pueden trabajar por su cuenta, en cuyo caso, <span class="highlight">es
+                necesario que te asegures de su buena reputación</span> ¿No dejas tu hogar en manos de cualquiera, o sí?
               </p>
 
               <h3>Principales responsabilidades de un buen plomero en Bogotá</h3>
@@ -110,56 +122,58 @@
               <iframe width="100%" height="315" src="https://www.youtube.com/embed/cZ9HB58Mb_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
               </iframe>
-              <p>La plomería, no es un trabajo sencillo y es sumamente delicado. Aquí hay una lista no exhaustiva de
-                tareas comunes que los plomeros deben completar:
+            </section>
+            
+            <section class="mt-5">
+              <p><span class="highlight">La plomería no es un trabajo sencillo y es sumamente delicado</span>. Aquí hay una lista no exhaustiva de
+                tareas comunes que los plomeros deben completar: 
               </p>
 
-
-              <ul>
-                <li>Analizar los esquemas de los sistemas de distribución de agua para colocar las tuberías de acuerdo
-                  con el diseño, y reajustar los detalles cuando sea necesario.
-                  <ul>
-                    <li>Colocar conexiones de tuberías, sistemas de drenaje y otros materiales de plomería según el
-                      plan.</li>
-                  </ul>
-                </li>
-                <li>Instalar los accesorios de plomería necesarios o cualquier otro equipo utilizado para distribuir,
-                  suministrar o eliminar agua o aguas residuales:
-                  <ul>
-                    <li>Preparar, medir y ajustar los tubos necesarios antes de colocarlos Utilizar herramientas
-                      eléctricas especializadas según sea necesario.</li>
-                    <li>Colocar tuberías dentro de las paredes y debajo de los pisos, creando aberturas donde sea
-                      necesario.</li>
-                  </ul>
-                </li>
+              <ul class="list-work">
+                <li><i class="far fa-check-circle"></i> Analizar los esquemas de los sistemas de distribución de agua para colocar las tuberías de acuerdo con el diseño, y reajustar los detalles cuando sea necesario.</li>
+                <li><i class="far fa-check-circle"></i> Colocar conexiones de tuberías, sistemas de drenaje y otros materiales de plomería según el plan.</li>
+                <li><i class="far fa-check-circle"></i> Instalar los accesorios de plomería necesarios o cualquier otro equipo utilizado para distribuir, suministrar o eliminar agua o aguas residuales</li>
+                <li><i class="far fa-check-circle"></i> Preparar, medir y ajustar los tubos necesarios antes de colocarlos Utilizar herramientas eléctricas especializadas según sea necesario.</li>
+                <li><i class="far fa-check-circle"></i> Colocar tuberías dentro de las paredes y debajo de los pisos, creando aberturas donde sea necesario.</li>
               </ul>
 
-              <p><b>Es importante que el plomero logre buenos acabados al finalizar su trabajo, una tubería mal puesta
+              <p class="lead"><em>Es importante que el plomero logre buenos acabados al finalizar su trabajo, una tubería mal puesta
                   no solo es peligrosa y generará futuros problemas, sino que además daña la estética de tu hogar.
-                  Puedes encontrar plomeros en Bogotá que cumplen estos requisitos, haciendo clic aquí.
-                </b></p>
+                  Puedes encontrar plomeros en Bogotá que cumplen estos requisitos, <span class="highlight2">haciendo clic aquí.</span></em>
+              </p>
             </section>
 
             <section class="row">
-              <div class="col-md-6">
-                <p class="card-text">Los plomeros realizan el diagnóstico (nos dicen qué pasa), la instalación y la
-                  reparación de los sistemas de plomería utilizados para la distribución y eliminación de gas, aire y
-                  agua, incluidos los sistemas de calefacción, ventilación y aire acondicionado.
-                  Es decir, son los creadores y doctores de todas aquellas tuberías que se encuentran en tu hogar.
-                </p>
-                <p class="card-text">
-                  Los plomeros pueden trabajar para una empresa o un contratista. Suelen acompañar a los ingenieros o a
-                  las empresas de servicios. También pueden trabajar por su cuenta, en cuyo caso, es necesario que te
-                  asegures de su buena reputación ¿no dejas tu hogar en manos de cualquiera, o sí?
-                </p>
+              <div class="col-md-6 mt-4">
+                <p>Los plomeros realizan el diagnóstico (nos dicen qué pasa), la instalación y la reparación de los sistemas de plomería utilizados para la distribución y eliminación de gas, aire y
+                  agua, incluidos los sistemas de calefacción, ventilación y aire acondicionado. Es decir, son los creadores y doctores de todas aquellas tuberías que se encuentran en tu hogar. </p>
               </div>
               <div class="col-md-6">
-                <img class="card-img" width="750" height="300" src="img/plomero cortando tubería.jpg">
+                <img class="img-fluid" width="750" height="300" src="img/plomero cortando tubería.jpg">
               </div>
             </section>
+
+            <section class="mt-5">
+                <p>Los plomeros pueden trabajar para una empresa o un contratista. Suelen acompañar a los ingenieros o a las empresas de servicios. También pueden trabajar por su cuenta, en cuyo caso, es necesario que te
+                    asegures de su buena reputación ¿no dejas tu hogar en manos de cualquiera, o sí? </p>  
+            </section>            
           </div>
-
-
+          <div id="share-buttons" class="mt-5">              
+              <!-- Facebook -->
+              <a href="#" target="_blank"><img src="img/facebook.png" alt="Facebook" /></a>
+              <!-- Twitter -->
+              <a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter" /></a>            
+              <!-- LinkedIn -->
+              <a href="#" target="_blank"><img src="img/linkedin.png" alt="LinkedIn" /></a>
+              <!-- Pinterest -->
+              <a href="#" target="_blank"><img src="img/pinterest.png" alt="Pinterest" /></a>
+              <!-- Tumblr-->
+              <a href="#" target="_blank"><img src="img/tumblr.png" alt="Tumblr" /></a>
+              <!-- Email -->
+              <a href="#"><img src="img/email.png" alt="Email" /></a>
+              <!-- Print -->
+              <a href="javascript:;" onclick="window.print()"><img src="img/print.png" alt="Print" /></a>            
+          </div>
         </div>
 
 
@@ -167,77 +181,68 @@
       </div>
       <!-- Sidebar Widgets Column -->
       <div class="col-md-4">
-        <!-- Search Widget -->
-        <div class="card mb-4">
-          <h6 class="card-header card-color">¿ Necesitas un servicio ?</h6>
+
+        <div class="card mb-4 color-default text-center">
+          <h6 class="card-header text-dark">¿Necesitas un servicio?</h6>
           <div class="card-body">
-            <a href="" class="btn button-custom">Pedir ya</a>
+            <p class="text-dark font-10">Solicitar un servicio a traves de DIN DON es muy sencillo, sólo regístrate y diligencia el formulario para conectarte con nuestros trabajadores</p>
+            <a href="#" class="btn button-custom"><i class="fas fa-arrow-right"></i> Solicitar servicio</a>
           </div>
         </div>
+
+        <div class="card mb-4 bg-card text-center">
+          <h6 class="card-header text-dark text-service-banner">¿Quieres Ofrecer un Servicio?</h6>
+          <div class="card-body">
+            <p class="text-light font-10">Nunca había sido tan fácil prestar servicios entre personas</p>
+            <a href="" class="btn button-custom"><i class="fas fa-arrow-right"></i> Comienza Aquí</a>
+          </div>
+        </div>        
+
         <div class="card">
-          <h5 class="card-header card-color">Buscar</h5>
+          <h5 class="card-header button-custom text-service-banner text-center">Buscar</h5>
           <div class="card-body">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Buscar articulo...">
               <span class="input-group-btn">
-                <button class="btn btn-secondary" type="button"> <i class="fas fa-chevron-circle-right"></i></button>
+                <button class="btn button-custom" type="button"> <i class="fas fa-chevron-circle-right"></i></button>
               </span>
             </div>
           </div>
         </div>
-        <!-- Categories Widget -->
+        
         <div class="card my-4">
-          <h5 class="card-header card-color">Categorias</h5>
+          <h5 class="card-header button-custom text-service-banner text-center">Categorias</h5>
           <div class="card-body">
             <div class="row">
-              <div class="col-lg-6">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#">Diseño web</a>
-                  </li>
-                  <li>
-                    <a href="#">HTML</a>
-                  </li>
-                  <li>
-                    <a href="#">Firebase</a>
-                  </li>
-                  <li>
-                    <a href="#">NodeJS</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#">JavaScript</a>
-                  </li>
-                  <li>
-                    <a href="#">CSS</a>
-                  </li>
-                  <li>
-                    <a href="#">Bootstrap</a>
-                  </li>
-                </ul>
-              </div>
+              <div class="col-lg-12">
+                <ul class="list-unstyled mb-0 text-dark">
+                  <li><a class="text-dark" href="#">Mantenimiento y reparacion</a></li>
+                  <li><a class="text-dark" href="#">Limpieza y servicios del hogar</a></li>
+                  <li><a class="text-dark" href="#">Clases particulares</a></li>
+                  <li><a class="text-dark" href="#">Transporte y trasteos</a></li>
+                  <li><a class="text-dark" href="#">Niñeras y cuidado de adultos</a></li>
+                  <li><a class="text-dark" href="#">Eventos</a></li>
+                  <li><a class="text-dark" href="#">Mascotas</a></li>
+                  <li><a class="text-dark" href="#">Cuidado personal</a></li>
+                  <li><a class="text-dark" href="#">Jardinería</a></li>
+                  <li><a class="text-dark" href="#">Tecnología y computadoras</a></li>
+                </ul>              
             </div>
           </div>
         </div>
-        <div class="card mb-4">
-          <h6 class="card-header card-color">Pedir servicio ya</h6>
-          <div class="card-body">
-            <a href="" class="btn button-custom">Click aquí</a>
-          </div>
-        </div>
-        <!-- Side Widget -->
+        
         <div class="card my-4">
-          <h5 class="card-header card-color">Widget</h5>
-          <div class="card-body">
-            Puedes poner lo que quieras dentro de estos widgets laterales. ¡Son fáciles de usar y cuentan con los
-            nuevos contenedores de tarjetas Bootstrap 4! </div>
+          <h5 class="card-header button-custom text-service-banner text-center">Síguenos en:</h5>
+          <div id="share-buttons" class="mt-3 mb-3 text-center">              
+              <a href="#" target="_blank"><img src="img/facebook.png" alt="Facebook" /></a>
+              <a href="#" target="_blank"><img src="img/twitter.png" alt="Twitter" /></a>            
+              <a href="#" target="_blank"><img src="img/linkedin.png" alt="LinkedIn" /></a>
+              <a href="#" target="_blank"><img src="img/pinterest.png" alt="Pinterest" /></a>
+          </div>
         </div>
 
         <div class="card my-4">
-          <h5 class="card-header card-color">Noticias importantes</h5>
+          <h5 class="card-header button-custom text-service-banner text-center">Noticias importantes</h5>
           <div class="card-body">
             Puedes poner lo que quieras dentro de estos widgets laterales. ¡Son fáciles de usar y cuentan con los
             nuevos contenedores de tarjetas Bootstrap 4!
@@ -246,6 +251,74 @@
       </div>
     </div>
 
+     <!-- comentarios -->
+
+
+
+     <div class="container mb-3">
+        <!-- <div class="row"> -->
+        <h1 class="text-center mt-5">Comentarios</h1>
+        <!-- </div> -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+              aria-selected="true">Nuevo comentario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+              aria-selected="false">Agregar</a>
+          </li>
+         
+        </ul>
+        <div class="tab-content m-3" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">
+              <div class="media mt-3">
+                <img src="img/1007317_640px.jpg" width="100px" height="100px" class="mr-3 ml-3 shadow-lg rounded-circle"
+                  alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0">Agencia Web Bogotá</h5>
+                  <p class="card-text">
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </p>
+                  <button class="btn btn-primary"><i class="fas fa-thumbs-up"></i></button><button class="btn btn-danger ml-3"><i
+                      class="fas fa-thumbs-down"></i></button>
+                </div>
+              </div>
+              <div class="media mt-3">
+                <img src="img/logo.png" width="100px" class="mr-3 ml-3 shadow-lg rounded-circle" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0">Agencia Web Bogotá</h5>
+                  <p class="card-text">
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </p>
+                  <button class="btn btn-primary"><i class="fas fa-thumbs-up"></i></button><button class="btn btn-danger ml-3"><i
+                      class="fas fa-thumbs-down"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <form>
+  
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Cometario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn button-custom">Comentar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+  
+      </div>
+  
+      <!-- Fin del sistema de comentarios -->
+  
 
 
 
@@ -320,110 +393,10 @@
 
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- comentarios -->
-
-
-
-    <div class="container mb-3">
-      <!-- <div class="row"> -->
-      <h1 class="text-center mt-5">Comentarios</h1>
-      <!-- </div> -->
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-            aria-selected="true">Nuevo comentario</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-            aria-selected="false">Agregar</a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-        </li> -->
-      </ul>
-      <div class="tab-content m-3" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-          <div class="row">
-            <div class="media mt-3">
-              <img src="img/1007317_640px.jpg" width="100px" height="100px" class="mr-3 ml-3 shadow-lg rounded-circle"
-                alt="...">
-              <div class="media-body">
-                <h5 class="mt-0">Agencia Web Bogotá</h5>
-                <p class="card-text">
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
-                  purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-                  vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </p>
-                <button class="btn btn-primary"><i class="fas fa-thumbs-up"></i></button><button class="btn btn-danger ml-3"><i
-                    class="fas fa-thumbs-down"></i></button>
-              </div>
-            </div>
-            <div class="media mt-3">
-              <img src="img/logo.png" width="100px" class="mr-3 ml-3 shadow-lg rounded-circle" alt="...">
-              <div class="media-body">
-                <h5 class="mt-0">Agencia Web Bogotá</h5>
-                <p class="card-text">
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
-                  purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-                  vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </p>
-                <button class="btn btn-primary"><i class="fas fa-thumbs-up"></i></button><button class="btn btn-danger ml-3"><i
-                    class="fas fa-thumbs-down"></i></button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-          <form>
-
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Cometario</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn button-custom">Comentar</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Fin del sistema de comentarios -->
-
-
-
-    <!-- /.container -->
+   <!-- /.container -->
     <!-- Footer -->
   </div>
-  <footer class="py-3 color-defoult">
+  <footer class="py-3 color-default">
     <div class="container">
       <div class="row">
         <div class="col-md-8">

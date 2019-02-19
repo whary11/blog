@@ -1,0 +1,138 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  font-family: 'Montserrat', sans-serif;
+  color: #606060 !important;
+
+}
+.color-default{
+  background-color: #80ffd8;
+}
+.bg-card{
+  background-image: url(../img/service-bg.jpg);
+}
+.text-service-banner{
+  background-color: #80ffd8;
+  color: black;
+  margin: 7px;
+  padding: 8px;
+  text-decoration: underline;
+}
+.button-custom{
+  background-color: black;
+  color:#fff;
+}
+.button-custom:hover{
+  color:#80ffd8;
+}
+.button-custom-light{
+  background-color: #80ffd8;
+  border:solid 1px black;
+  padding: 8px;
+}
+
+.highlight{
+  color:#333333;
+  font-weight: 600;
+}
+.highlight2{
+  background-color: #80ffd8;
+  padding:0 5px 0 5px;
+  color:#333333;
+  font-weight: 600;
+}
+
+
+/* Slider */
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  /* width: 960px; */
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  /* height: 100px; */
+  position: absolute;
+  /* width: 200px; */
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: flex;
+  /* width: calc(250px * 14); */
+}
+.slider .slide {
+  /* height: 100px; */
+  width: auto;
+}
+ 
+#share-buttons img {
+  width: 40px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  }
+
+
+.post-title{
+  font-size: 35px;
+  color:#333333;
+  font-weight: 700 !important; 
+}
+.post-content h3{
+  padding-bottom:20px;
+  font-weight: 500 !important; 
+}
+
+.list-work{
+  list-style: none;
+  display: inline-block;
+}
+.list-work li{
+  padding-bottom: 1.3em;
+  margin-left: -1.3em;
+}
+.list-work i{
+  color:#80ffd8;
+}
